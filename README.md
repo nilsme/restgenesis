@@ -28,7 +28,7 @@ username <- 'username'
 password <- 'password'
 name <- '12411-0001'
 
-df <- get_tablefile(username, password)
+df <- get_tablefile(username, password, name)
 
 head(df)
 ```
